@@ -16,6 +16,11 @@
         "attr": {
             "data-transition": "convex"
         }
+    },
+    {
+        "filename": "typed.html",
+        "attr": {
+            "data-state": "blabla"
+        }
     }
-
 ]
