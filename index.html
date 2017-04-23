@@ -33,7 +33,8 @@
         var link = document.createElement('link');
         link.rel = 'stylesheet';
         link.type = 'text/css';
-        link.href = window.location.search.match(/print-pdf/gi) ? 'bower_components/reveal.js/css/print/pdf.css' : 'bower_components/reveal.js/css/print/paper.css';
+        var printMode = window.location.search.match(/print-pdf/gi);
+        link.href = printMode ? 'resources/custom-print.css' : 'bower_components/reveal.js/css/print/paper.css';
         document.getElementsByTagName('head')[0].appendChild(link);
     </script>
 
@@ -123,7 +124,215 @@
         
         
         
-    <section data-state="blabla" data-html="slides/typed.html"></section>
+    <section data-html="slides/009_ajax.html"></section>
+
+
+        
+        
+        
+        
+        
+    <section data-transition="fade-out" data-html="slides/010_js_now.html"></section>
+
+
+        
+        
+        
+        
+        
+    <section data-transition="fade-in" data-html="slides/011_js_now_focus.html"></section>
+
+
+        
+        
+        
+        
+        
+    <section data-html="slides/012_toolset.html"></section>
+
+
+        
+        
+        
+        
+        
+    <section data-html="slides/013_node.html"></section>
+
+
+        
+        
+        
+        
+        
+    <section data-html="slides/014_npm.html"></section>
+
+
+        
+        
+        
+        
+        
+    <section data-html="slides/015_init.html"></section>
+
+
+        
+        
+        
+        
+        
+    <section data-html="slides/016_es.html"></section>
+
+
+        
+        
+        
+        
+        
+    <section data-transition="fade-out" data-html="slides/017_ie.html"></section>
+
+
+        
+        
+        
+        
+        
+    <section data-transition="fade-in" data-html="slides/018_ie_troll.html"></section>
+
+
+        
+        
+        
+        
+        
+    <section data-html="slides/019_babel.html"></section>
+
+
+        
+        
+        
+        
+        
+    <section data-html="slides/020_es6_example.html"></section>
+
+
+        
+        
+        
+        
+        
+    <section data-html="slides/021_babel-deps.html"></section>
+
+
+        
+        
+        
+        
+        
+    <section data-html="slides/022_ls_node_modules.html"></section>
+
+
+        
+        
+        
+        
+        
+    <section data-html="slides/023_ls_node_modules_inside.html"></section>
+
+
+        
+        
+        
+        
+        
+    <section data-html="slides/024_webpack.html"></section>
+
+
+        
+        
+        
+        
+        
+    <section data-html="slides/024.2_what_is_webpack.html"></section>
+
+
+        
+        
+        
+        
+        
+    <section data-html="slides/025_npm_install_webpack.html"></section>
+
+
+        
+        
+        
+        
+        
+    <section data-html="slides/025.2_npm_install_webpack_loader.html"></section>
+
+
+        
+        
+        
+        
+        
+    <section data-html="slides/026_webpack_config.html"></section>
+
+
+        
+        
+        
+        
+        
+    <section data-html="slides/027_mkdir_src.html"></section>
+
+
+        
+        
+        
+        
+        
+    <section data-html="slides/029_webpack_magic.html"></section>
+
+
+        
+        
+        
+        
+        
+    <section data-html="slides/030_vue.html"></section>
+
+
+        
+        
+        
+        
+        
+    <section data-html="slides/031_roadmap.html"></section>
+
+
+        
+        
+        
+        
+        
+    <section data-html="slides/032_install_vue.html"></section>
+
+
+        
+        
+        
+        
+        
+    <section data-html="slides/033_install_vue.html"></section>
+
+
+        
+        
+        
+        
+        
+    <section data-html="slides/035_hot_reload.html"></section>
 
 
         
