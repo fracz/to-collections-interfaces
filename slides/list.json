@@ -18,15 +18,11 @@
         }
     },
     {
-        "filename": "003_js.html",
+        "filename": "003_agenda.html",
         "attr": {
             "data-transition": "concave"
         }
     },
-    "004_js_versus_java.html",
-    "005_hamster.html",
-    "006_monsters.html",
-    "007_good_parts.html",
     "008_js_then.html",
     "009_ajax.html",
     {
@@ -41,6 +37,7 @@
             "data-transition": "fade-in"
         }
     },
+    "011_agenda.html",
     "012_toolset.html",
     "013_node.html",
     "014_npm.html",
@@ -65,10 +62,11 @@
     "023_ls_node_modules_inside.html",
     "024_webpack.html",
     "024.2_what_is_webpack.html",
-    "025_npm_install_webpack.html",
     "025.2_npm_install_webpack_loader.html",
     "026_webpack_config.html",
     "027_mkdir_src.html",
+    "028_npm_script.html",
+    "028_npm_script_package_json.html",
     "029_webpack_magic.html",
     "030_vue.html",
     "031_roadmap.html",
