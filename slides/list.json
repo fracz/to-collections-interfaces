@@ -4,5 +4,36 @@
         "attr": {
             "data-transition": "fade-out"
         }
-    }
+    },
+    "001_agenda.html",
+    "002_zad1.html",
+    "009_agenda.html",
+    "010_zad2.md",
+    "011_guitar.md",
+    "012_flute.md",
+    "012_puzon.md",
+    "013_zad2-2.md",
+    "014_sound_app.md",
+    {
+        "filename": "015_zad2-wygodne.md",
+        "attr": {
+            "data-background": "green",
+            "data-transition": "zoom"
+        }
+    },
+    "016_zad2-3.md",
+    "017_interface.md",
+    "018_implements.md",
+    "019_zad2-4.md",
+    "020_sound_app.md",
+    "021_sound_app.md",
+    {
+        "filename": "022_polimorfizm.md",
+        "attr": {
+            "data-background": "green",
+            "data-transition": "zoom"
+        }
+    },
+    "023_zad2-5.md",
+    "030_agenda.html"
 ]
