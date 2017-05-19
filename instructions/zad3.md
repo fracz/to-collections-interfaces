@@ -15,7 +15,33 @@ Square
 -- metodę `perimeter()` obliczającą i zwracającą obwód wielokąta
 -- metodę `area()` obliczającą pole powierzchni wielokąta
 - Zastanów się, czy klasa `Polygon` posiada wystarczające informacje by dostarczyć implementacji obu metod.
-- Zwróć szczególną uwagę na implementację konstruktorów - `Polygon` powinien przyjmować listę boków, `Triangle` dokładnie trzy konkretne boki, `Rectangle` dwa boki, a `Square` jeden.
+- Zwróć szczególną uwagę na implementację konstruktorów - `Polygon` powinien przyjmować dowolną liczbę boków, natomiast `Triangle` dokładnie trzy, `Rectangle` dwa, a `Square` jeden.
+
+Przy użyciu Twojej implementacji powinno być możliwe wykonanie poniższego kodu:
+
+```java
+public class Geometry {
+    public static void main(String... args) {
+        List<Polygon> polygons = new ArrayList<Polygon>();
+        polygons.add(new Triangle(5, 7, 8));
+        polygons.add(new Rectangle(4, 6));
+        polygons.add(new Square(5));
+ 
+        for (Polygon polygon : polygons) {
+            System.out.println("Perimeter: " + polygon.perimeter() +
+                    ", Area: " + polygon.area());
+        }
+    }
+}
+```
+
+A jego rezultat powinien być następujący:
+
+```
+Perimeter: 20, Area: 17.320508075688775
+Perimeter: 20, Area: 24.0
+Perimeter: 20, Area: 25.0
+```
 
 ## Przydatne informacje
 
