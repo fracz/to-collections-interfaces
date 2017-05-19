@@ -17,3 +17,10 @@ public class SoundApp {
 
 <span class="fragment" data-code-focus="3-6"></span>
 <span class="fragment" data-code-focus="8-10"></span>
+
+#### Wynik
+```bash
+Brzdek
+Fiu fiu
+Puuuuuuuuuuuuuuu
+```
