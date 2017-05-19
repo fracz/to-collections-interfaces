@@ -1,11 +1,15 @@
+import java.util.ArrayList;
+import java.util.List;
+
 public class SoundApp {
     public static void main(String... args) {
-        Instrument guitar = new Guitar();
-        Instrument flute = new Flute();
-        Instrument trombone = new Trombone();
+        List<Instrument> instruments = new ArrayList<Instrument>();
+        instruments.add(new Guitar());
+        instruments.add(new Flute());
+        instruments.add(new Trombone());
 
-        guitar.play();
-        flute.play();
-        trombone.play();
+        for (Instrument instrument : instruments) {
+            instrument.play();
+        }
     }
 }
