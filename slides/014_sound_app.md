@@ -1,7 +1,7 @@
 ## `SoundApp.java`
 
 ```java
-class SoundApp {
+public class SoundApp {
     public static void main(String... args) {
         Guitar guitar = new Guitar();
         Flute flute = new Flute();

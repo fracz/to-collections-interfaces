@@ -1,17 +1,17 @@
 ## `Guitar.java`
 
 ```java 
-class Guitar implements Instrument {
+public class Guitar implements Instrument {
 ```
 
 ## `Flute.java`
 
 ```java 
-class Flute implements Instrument {
+public class Flute implements Instrument {
 ```
 
 ## `Trombone.java`
 
 ```java 
-class Trombone implements Instrument {
+public class Trombone implements Instrument {
 ```

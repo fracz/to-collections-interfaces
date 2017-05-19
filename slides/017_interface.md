@@ -1,7 +1,7 @@
 ## `Instrument.java`
 
 ```java
-interface Instrument {
+public interface Instrument {
     public void play();
 }
 ```

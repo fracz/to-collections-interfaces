@@ -1,0 +1,24 @@
+<h2><code>Polygon.java</code></h2>
+
+<pre><code class="hljs lang-java" style="max-height: initial">public abstract class Polygon {
+    protected final List&lt;Integer> sides;
+
+    public Polygon(Integer... sides) {
+        this.sides = Arrays.asList(sides);
+    }
+
+    public Integer perimeter() {
+        Integer sum = 0;
+        for (Integer sideLength : sides) {
+            sum += sideLength;
+        }
+        return sum;
+    }
+
+    public abstract double area();
+}</code></pre>
+
+<span class="fragment" data-code-focus="4-6"></span>
+<span class="fragment" data-code-focus="8-14"></span>
+<span class="fragment" data-code-focus="16"></span>
+<span class="fragment" data-code-focus="1,16"></span>
