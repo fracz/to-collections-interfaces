@@ -10,7 +10,7 @@ Najczęściej słowo **jest** określa nam relację między typami danych, któr
 Napisz deklaracje dla wszystkich wymaganych typów i przetestuj ich działanie:
 
 2. Stwórz klasy `Guitar`, `Flute` i `Trombone`, które definiują metodę `play()` i zachowują się w oczekiwany sposób.
-1. Dodaj klasę `SoundApp`, którą można uruchomić (`publis static void main...`) i która tworzy instancję każdego instrumentu i odtwarza jego dźwięk. Czy używanie instrumentów jest wygodne?
+1. Dodaj klasę `SoundApp`, którą można uruchomić (`public static void main...`) i która tworzy instancję każdego instrumentu i odtwarza jego dźwięk. Czy używanie instrumentów jest wygodne?
 1. Stwórz interfejs `Instrument` i zadeklaruj w nim metodę `play()`. Zaimplementuj ten interfejs w swoich instrumentach.
 1. W klasie `SoundApp` stwórz teraz listę instrumentów i zagraj na wszystkich w pętli. Zauważ, że Twój program potrafi zagrać na instrumencie niezależnie od tego czym on jest. Dzieje się tak dzięki *polimorficznym wywołaniom*, tj. do momentu wykonania programu nie wiadomo, jaki typ pochodny (jaka implmementacja) będzie wykorzystywana, ponieważ informacja ta jest przykryta interfejsem.
 1. Stwórz klasę `Orchestra`, która:
