@@ -1,4 +1,4 @@
-public class Flute {
+public class Flute implements Instrument {
     public void play() {
         System.out.println("Fiu fiu");
     }
