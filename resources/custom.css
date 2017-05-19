@@ -32,3 +32,21 @@ code .line.focus {
 a {
     cursor: pointer;
 }
+
+.done {
+    visibility: hidden;
+    color: #17ff2e;
+    display: inline-block;
+    width: 0px;
+    position: relative;
+    right: 50px;
+    text-align: center;
+}
+
+.visible .done {
+    visibility: visible;
+}
+
+.shrink.visible {
+    transform: scale(0.7);
+}
